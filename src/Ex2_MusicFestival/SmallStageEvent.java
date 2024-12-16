@@ -6,19 +6,17 @@ package Ex2_MusicFestival;
      public String artist2;
      public SmallStageEvent(String name, String type, String a,String g) {
          super(name, type);
-         a = artist2;
-            g = genre;
+       artist2 = a;
+            genre = g;
 
 
      }
-public String toString(){
-return artist2 + " " + genre;
-}
+
 
 
 
      public void printSmallStage(){
 
-         System.out.println("Performing artists "  + ", wallahi " + artist2+ " playing " + genre);
+         System.out.println("Performing artists: " + super.getEventName()  + ", with " + artist2+ " playing " + genre);
      }
  }
