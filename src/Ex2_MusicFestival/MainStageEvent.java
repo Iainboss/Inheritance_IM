@@ -27,5 +27,8 @@ class MainStageEvent extends Event {
         System.out.println();
     }
 
+public String toString(){
+        return super.getEventName() + " | Tech:" + techRequirements;
+}
 
 }

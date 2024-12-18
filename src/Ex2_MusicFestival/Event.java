@@ -18,7 +18,9 @@ public abstract class Event {
     }
 
   
-
+public String toString(){
+        return eventName;
+}
     public int getEventID() {
         return eventID;
     }

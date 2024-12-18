@@ -14,4 +14,10 @@ public class Shops extends NonMusicEvent {
         System.out.println(super.getEventName() + " is at " + super.getLocation() + ". Total revenue: "+revenue );
     }
 
+ public  String  printRev(){
+    return super.getEventName() + " $" + revenue;
+ }
+
+
+
 }

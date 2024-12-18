@@ -12,11 +12,16 @@ package Ex2_MusicFestival;
 
      }
 
-
+public String toString(){
+         return super.getEventName() + " and " + artist2;
+}
 
 
      public void printSmallStage(){
 
          System.out.println("Performing artists: " + super.getEventName()  + ", with " + artist2+ " playing " + genre);
      }
+
+
+
  }
