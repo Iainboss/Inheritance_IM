@@ -1,3 +1,5 @@
+package Utilities;
+
 import Examples.Library;
 
 class Ex0_MenuTemplate {

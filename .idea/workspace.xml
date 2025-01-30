@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="Inheritance Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2_MusicFestival/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2_MusicFestival/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2_MusicFestival/Ex3_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2_MusicFestival/Ex3_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2_MusicFestival/MainStageEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2_MusicFestival/MainStageEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2_MusicFestival/NonMusicEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2_MusicFestival/NonMusicEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2_MusicFestival/Shops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2_MusicFestival/Shops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2_MusicFestival/SmallStageEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2_MusicFestival/SmallStageEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex0_MenuTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Ex0_MenuTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex0_OOPHelpCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Ex0_OOPHelpCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex2_MusicFestival/Ex3_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2_MusicFestival/Ex2_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,9 @@
   <component name="ProblemsViewState">
     <option name="autoscrollToSource" value="true" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2pjAM2SMMBQpFLeNW03mRwGGXKp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -39,17 +44,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/CompSci30_IM/OOP_IM&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/CompSci30_IM",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\CompSci30_IM\Inheritance_IM\src\Utilities" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TwoD_Arrays" />
+      <recent name="Utilities" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -87,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734028929250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Inheritance Commit">
+      <created>1734546783230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734546783230</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

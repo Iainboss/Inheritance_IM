@@ -3,9 +3,8 @@ package Ex2_MusicFestival;
 import java.util.ArrayList;
 
 import Examples.Library;
-import com.sun.tools.javac.Main;
 
-public class Ex3_Main {
+public class Ex2_Main {
     public static void run() {
         ArrayList<Event> allEvents = new ArrayList<>();
         //MAIN STAGE EVENTS
@@ -16,7 +15,7 @@ public class Ex3_Main {
         allEvents.add(new MainStageEvent("Drake", "Music"));
         //SMALL STAGE EVENTS
         allEvents.add(new SmallStageEvent("Jimmy", "Music", "John", "Country"));
-        allEvents.add(new SmallStageEvent("Sigma", "Comedy", "Alpha", "Improv"));
+        allEvents.add(new SmallStageEvent("Homer", "Comedy", "Bart", "Improv"));
         allEvents.add(new SmallStageEvent("Theo Von", "Comedy", "King Von", "Stand Up"));
         allEvents.add(new SmallStageEvent("Drake", "Music", "Kendrick", "Rap Battle"));
         allEvents.add(new SmallStageEvent("Country Boy", "Music", "Country Boy 2", "Country"));
