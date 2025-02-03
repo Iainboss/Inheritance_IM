@@ -1,6 +1,5 @@
 package Utilities;
 
-
 import java.util.Scanner;
 
 public class Library {
@@ -27,9 +26,6 @@ public class Library {
         int num =  (int) (Math.random() * (max - min + 1)   + min);
         return num;
     }//and random
-
-
-
 
 
 
