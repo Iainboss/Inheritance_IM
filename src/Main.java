@@ -10,8 +10,8 @@ System.out.println("Inheritance unit");
 //        Ex2_Main.run();
 //        Ex2_TicTacToe.run();
 //        Ex3_Sudoku.run();
-        As1_Bingo.run();
-//        As5_Vigenere.run();
+//        As1_Bingo.run();
+        As5_Vigenere.run();
 
     }
 

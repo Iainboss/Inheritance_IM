@@ -1,19 +1,39 @@
 package TwoD_Arrays;
 
 
+import Utilities.Library;
+
 public class As5_Vigenere {
     public static void run() {
         char[] alphabet = {'A','B','C','D','E','F','G','H','I','J','K',
                 'L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
         char[][] vigenere =createVSquare(alphabet);
         printSquare(vigenere);
+
+//DECIPHERING: WHERE IS CHAR[KEY] == CHAR[ENCRYPTED MESSAGE]
+        System.out.println("What is your message?");
+        String message = Library.input.nextLine();
+
+        System.out.println(keyStream(message));
+
+
+
+
     }
+
+
 
     private static char[][] createVSquare(char[] alphabet) {
         char[][] square = new char[alphabet.length][alphabet.length];
-        for (int i = 0; i < 26; i++) {
+        for (int row = 0; row < alphabet.length; row++) {
 
-        }
+            for(int col = 0; col<alphabet.length; col++) {
+              square[row][col] = alphabet[(row + col) % alphabet.length];
+            }
+
+            }
+
+
 //code to be written
 
         return square;
@@ -25,7 +45,7 @@ public class As5_Vigenere {
 
             for (int col = 0; col < square[row].length; col++) {
 
-                System.out.print(square[row][col] + "\t");
+                System.out.print(square[row][col] + " ");
             }
             System.out.println();
         }
@@ -42,5 +62,24 @@ public class As5_Vigenere {
         }
         return -1;
     }
+
+    public static char getChar(char[][] arr, int rowNum, int colNum){
+//
+return arr[rowNum][colNum];
+    }
+    public static StringBuilder keyStream (String message){
+String keyword = "SCONA";
+StringBuilder keyStream  = new StringBuilder();
+
+        for (int i = 0; i < message.length(); i++) {
+
+
+           keyStream.append(keyword.charAt(i % keyword.length()));
+
+        }
+     return keyStream;
+    }
+
+
 
 }//end class
