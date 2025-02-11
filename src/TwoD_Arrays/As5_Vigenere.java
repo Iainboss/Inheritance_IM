@@ -14,9 +14,21 @@ public class As5_Vigenere {
         System.out.println("What is your message?");
         String message = Library.input.nextLine();
 
-        System.out.println(keyStream(message));
+       StringBuilder keyStream = keyStream(message);
+
+        for (int i = 0; i < message.length(); i++) {
+char letter = (char) (char) alphabetConv(message.charAt(i));
+char letter2 = (char) (char) alphabetConv(keyStream.charAt(i));
 
 
+
+                    System.out.print(vigenere[letter][letter2]);
+
+
+
+
+
+        }
 
 
     }
@@ -78,6 +90,11 @@ StringBuilder keyStream  = new StringBuilder();
 
         }
      return keyStream;
+    }
+
+     public static int alphabetConv (char letter){
+letter = Character.toUpperCase(letter);
+        return letter - 'A';
     }
 
 
