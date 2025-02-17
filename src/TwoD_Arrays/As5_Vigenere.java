@@ -17,17 +17,14 @@ public class As5_Vigenere {
        StringBuilder keyStream = keyStream(message);
 
         for (int i = 0; i < message.length(); i++) {
-char letter = (char) (char) alphabetConv(message.charAt(i));
-char letter2 = (char) (char) alphabetConv(keyStream.charAt(i));
+            int encryptedLetterIndex = alphabetConv(message.charAt(i));
+            int keyLetterIndex = alphabetConv(keyStream.charAt(i));
 
 
-
-                    System.out.print(vigenere[letter][letter2]);
-
+            int decryptedLetterIndex = (encryptedLetterIndex - keyLetterIndex + 26) % 26;
 
 
-
-
+            System.out.print(vigenere[decryptedLetterIndex][0]);
         }
 
 
@@ -79,6 +76,9 @@ char letter2 = (char) (char) alphabetConv(keyStream.charAt(i));
 //
 return arr[rowNum][colNum];
     }
+
+
+
     public static StringBuilder keyStream (String message){
 String keyword = "SCONA";
 StringBuilder keyStream  = new StringBuilder();
