@@ -11,10 +11,17 @@ public class As5_Vigenere {
         printSquare(vigenere);
 
 //DECIPHERING: WHERE IS CHAR[KEY] == CHAR[ENCRYPTED MESSAGE]
+String key = "SCONA";
+         System.out.println("Do you want a custom key?");
+        String querry = Library.input.nextLine();
+        if(querry.toLowerCase().contains("y")){
+            System.out.println("What is your key? (All Caps)");
+              key=Library.input.nextLine().toUpperCase();
+        }
         System.out.println("What is your message?");
         String message = Library.input.nextLine();
 
-       StringBuilder keyStream = keyStream(message);
+       StringBuilder keyStream = keyStream(message,key);
 
         for (int i = 0; i < message.length(); i++) {
             int encryptedLetterIndex = alphabetConv(message.charAt(i));
@@ -79,14 +86,14 @@ return arr[rowNum][colNum];
 
 
 
-    public static StringBuilder keyStream (String message){
-String keyword = "SCONA";
+    public static StringBuilder keyStream (String message, String key){
+
 StringBuilder keyStream  = new StringBuilder();
 
         for (int i = 0; i < message.length(); i++) {
 
 
-           keyStream.append(keyword.charAt(i % keyword.length()));
+           keyStream.append(key.charAt(i % key.length()));
 
         }
      return keyStream;

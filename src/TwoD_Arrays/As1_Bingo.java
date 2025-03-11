@@ -36,19 +36,24 @@ char[] BINGO = {'B','I','N','G','O'};
                 int number = Library.myRandom(1,75);
             System.out.println("Number is..... " + number);
 
-
+boolean foundNum = false;
             for (int row = 0; row < bingoCard.length; row++) {
 
                 for (int col = 0; col < bingoCard[row].length; col++) {
 
                     if(bingoCard[row][col] == number){
                         bingoCard[row][col]=0;
+                        foundNum=true;
+
+
                     }
                 }
 
             }
-
-
+            if(foundNum==false){
+                System.out.println("Number not on card!");
+            }
+foundNum=false;
 
             for (int row = 0; row < bingoCard.length; row++) {
                 System.out.print(BINGO[row] +"\t");
@@ -80,10 +85,10 @@ if(Rowtotal==0){
 
 
             int Coltotal = 0;
-            for (int col = 0; col < bingoCard[0].length; col++) {  // Loop through columns
+            for (int col = 0; col < bingoCard[0].length; col++) {
 
-                for (int row = 0; row < bingoCard.length; row++) {  // Loop through rows within the current column
-                    Coltotal += bingoCard[row][col];  // Add the value of each cell in the column
+                for (int row = 0; row < bingoCard.length; row++) {
+                    Coltotal += bingoCard[row][col];
 
                 }
 

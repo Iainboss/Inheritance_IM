@@ -1,3 +1,4 @@
+import FamilyTree.FamilyTreeMain;
 import TwoD_Arrays.As1_Bingo;
 import TwoD_Arrays.As5_Vigenere;
 
@@ -11,7 +12,8 @@ System.out.println("Inheritance unit");
 //        Ex2_TicTacToe.run();
 //        Ex3_Sudoku.run();
 //        As1_Bingo.run();
-        As5_Vigenere.run();
+//        As5_Vigenere.run();
+        FamilyTreeMain.run();
 
     }
 
