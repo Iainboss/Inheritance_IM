@@ -31,8 +31,12 @@ public class FamilyTreeMain {
         person1.children.get(1).children.get(0).children.get(1).addChild(new Person("Iainworker", "Canada"));
 
 
+        //MARKING ADD
+        person1.addChild(new Person("Hans", "Canada")); //- 4th child
+        person1.children.get(3).addChild(new Person("Alan", "England"));  //Hans' child
+
         while (true) {
-            System.out.println("\n\nPress 1 to print the family\nPress 2 to count the number of family members\nPress 3 to print Canadians");
+            System.out.println("\n\nPress 1 to print the family\nPress 2 to count the number of family members\nPress 3 to print Canadians\nPress 4 to print descendents (print from here)");
             int choice = Library.input.nextInt();
             Library.input.nextLine();
 
@@ -46,8 +50,9 @@ public class FamilyTreeMain {
                 printCanadians(person1);
             }
             if(choice == 4){
-                System.out.println("What is the name of the person you want to print?");
-                String person = Library.input.nextLine();
+                System.out.println("What is the name of the person you are looking for?");
+                String name = Library.input.nextLine();
+                searchToPrint(person1,name);
 
             }
 
@@ -84,7 +89,8 @@ public class FamilyTreeMain {
         System.out.println(p.name + " (Parent: " + parentName + ")");
 
 
-        for (Person child : p.children) {
+        for (int i = 0; i < p.children.size(); i++) {
+            Person child = p.children.get(i);
             printFamily(child, p);
         }
 
@@ -119,6 +125,27 @@ return counter;
     }
 
 
+
+    public static boolean searchToPrint(Person currentPerson, String name) {
+        //Only for the printFromHere method *****************************
+        if (currentPerson.getName().equalsIgnoreCase(name)) {
+            printFromHere(currentPerson);
+            return true;
+        }
+        else {
+
+
+            for (int i = 0; i < currentPerson.children.size(); i++) {
+                Person descendant = currentPerson.children.get(i);
+                if (searchToPrint(descendant, name)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
+
 
 

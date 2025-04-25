@@ -13,7 +13,7 @@ System.out.println("Inheritance unit");
 //        Ex3_Sudoku.run();
 //        As1_Bingo.run();
 //        As5_Vigenere.run();
-//        FamilyTreeMain.run();
+        FamilyTreeMain.run();
 
 
     }

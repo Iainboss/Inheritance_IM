@@ -27,6 +27,7 @@ public class As1_Main {
         allMessages.add( new Message("Client3:    diskette disk"));
         allMessages.add( new Message("Router1: missing packet"));
         allMessages.add( new Message("PC4: power surge detected"));
+        allMessages.add(new Message("Mri4: nopingerror"));
             while (true) {
                 System.out.println("\nWhat do you want to do?");
                 System.out.println("1. Add Message");
@@ -62,11 +63,12 @@ public class As1_Main {
                         }
                     }
                 } else if (option == 4) {
+                    System.out.println("Logging out. Good Bye.");
                     break;
                 } else {
                     System.out.println("That is not an available option");
                 }
-                System.out.println("Logging out. Good Bye.");
+
             }//while
 
 

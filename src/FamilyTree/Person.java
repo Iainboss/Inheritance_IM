@@ -22,4 +22,7 @@ public String toString(){
     return name + " | " + country;
 }
 
+    public String getName() {
+        return name;
+    }
 }

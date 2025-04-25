@@ -35,11 +35,11 @@ public class Message {
     }
 
     public String printMessage() {
-        return "Type: " + machineType + "    ID: " + machineId + "    Warning: " + warning;
+        return  machineType + "___" + machineId + "___" + warning;
     }
 
     public boolean scanWarning(String keyword) {
-        if (keyword.startsWith(warning + " ")) {
+        if (warning.startsWith(keyword + " ")) {
             return true;
         } else if (warning.endsWith(" " + keyword)) {
             return true;

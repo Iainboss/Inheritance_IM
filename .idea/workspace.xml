@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="Bingo finished. Feb 5">
+    <list default="true" id="d347db3d-fdc9-4f1b-940f-de355116165b" name="Changes" comment="Network finished. april 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FamilyTree/FamilyTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/FamilyTreeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Network_Warnings_Asn/As1_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network_Warnings_Asn/As1_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Network_Warnings_Asn/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network_Warnings_Asn/Message.java" afterDir="false" />
     </list>
@@ -184,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743615505260</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Network finished. april 4">
+      <option name="closed" value="true" />
+      <created>1743787694092</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743787694092</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +214,8 @@
     <MESSAGE value="Bingo update" />
     <MESSAGE value="bingo feb3" />
     <MESSAGE value="Bingo finished. Feb 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bingo finished. Feb 5" />
+    <MESSAGE value="Network finished. april 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Network finished. april 4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Inheritance_IM$Main.ic" NAME="Main Coverage Results" MODIFIED="1733852029142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
